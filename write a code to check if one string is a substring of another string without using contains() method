@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		String main =  "yash aptil from padalse";
+		//String sub = "from";
+		String sub = " ";
+		System.out.println(main.indexOf(sub)!=-1);
+		System.out.println(main.contains(sub));
+		System.out.println(main.matches("(.*)"+sub+"(.*)"));
+	}
+}
